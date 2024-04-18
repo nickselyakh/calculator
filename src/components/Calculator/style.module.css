@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 10px;
+  background: var(--background-light);
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  width: 286px;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.primary {
+  color: var(--primary) !important;
+}
+
+.secondary {
+  color: var(--secondary) !important;
+}
+
+.default {
+  color: var(--white);
+}
+
+.equal {
+  background: var(--secondary) !important;
+}
